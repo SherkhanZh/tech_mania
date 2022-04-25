@@ -29,7 +29,7 @@ class ListItem extends StatelessWidget {
           title: Text(title),
           subtitle: Column(
             children: [Text(category),
-            Row(children: [Text(price), ElevatedButton(onPressed: onPressed, child: Text("press"))],mainAxisAlignment:
+            Row(children: [Text(price), ElevatedButton(onPressed: (){}, child: Text("press"))],mainAxisAlignment:
               MainAxisAlignment.spaceBetween,)],
           ),
           tileColor: Colors.white,
